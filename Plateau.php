@@ -8,10 +8,12 @@ class Plateau {
  
     public function __construct(Joueur $joueurA, Joueur $joueurB){
         $this->joueurA = $joueurA;
-        $this->joueurA = $joueurB;
+        $this->joueurB = $joueurB;
     }
  
    
 
     
 }
+$plateau1=new Plateau($joueur1,$joueur2);
+print_r($plateau1);
