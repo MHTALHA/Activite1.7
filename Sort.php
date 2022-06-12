@@ -28,7 +28,9 @@ public function getNbDegat(){
  
 
 }
-$monstre1 = new Monstre(2,10,5);
-$sort1 = new Sort(2,6);
-//echo $sort2->getNbDegat().PHP_EOL;
-echo $sort1->attaquer($monstre1);
+// $monstre1 = new Monstre(2,10,5);
+// $sort1 = new Sort(2,6);
+// //echo $sort2->getNbDegat().PHP_EOL;
+// echo $sort1->attaquer($monstre1);
+// var_dump($sort1);
+// var_dump($monstre1);

@@ -1,5 +1,5 @@
 <?php
-declare(strict_type=1);
+
 
 class Monstre {
 
@@ -15,15 +15,15 @@ class Monstre {
         $this->nbDegat=$nbDegat;
  }
 
- public function getPtsVie(){
+ public function getPtsVie():int{
    return $this->ptsVie;
    
 }
-public function getNbDegat(){
+public function getNbDegat():int{
 
    return $this->nbDegat;
 }
-public function minusNbVie($nbDegat){
+public function minusNbVie($nbDegat):int{
 
     return $this->ptsVie-=$nbDegat;
  }
@@ -40,8 +40,11 @@ public function minusNbVie($nbDegat){
  
 
 }
-$monstre1 = new Monstre(2,10,5);
-$monstre2 = new Monstre(2,8,2);
-//echo $monstre2->getPtsVie().PHP_EOL;
-echo $monstre1->attaquer($monstre2);
-//echo $monstre2->getPtsVie();
+// $monstre1 = new Monstre(2,10,5);
+// $monstre2 = new Monstre(2,8,2);
+// //echo $monstre2->getPtsVie().PHP_EOL;
+// echo $monstre1->attaquer($monstre2).PHP_EOL;
+// //echo $monstre2->getPtsVie();
+
+// var_dump($monstre1);
+// var_dump($monstre2);

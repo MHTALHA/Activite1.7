@@ -2,7 +2,7 @@
 require('Joueur.php');
 class Plateau {
    
-    private int $nbMonstreParJoueur=5;
+    private static int $nbMonstreParJoueur=5;
     private Joueur $joueurA ;
     private Joueur $joueurB ;
  
@@ -13,6 +13,5 @@ class Plateau {
  
    
 
-    
     
 }
